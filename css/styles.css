@@ -1,3 +1,10 @@
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
 *{
   margin: 0px;
   padding: 0px;
@@ -56,6 +63,44 @@ ul li{
   color: #fff;
   border-radius: 10px;
 }
+
+
+
+/*---------------------Home Page Portfolio-------------------------*/
+
+
+.text-uppercase, .text-secondary{
+  text-transform: uppercase;
+}
+
+
+.project-area{
+    padding: 4rem 0;
+}
+
+.project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.row .element-item .img .img-fluid {
+  width: 100%;
+}
+/*-------------------Homepage portfolio end-----------------------*/
 
 
 .btn{                            /*Button Get Connect and Enquiry*/
@@ -167,7 +212,7 @@ footer
 }
 
 
-/*--------------------------Portfolio-------------*/
+/*--------------------------Portfolio-------------------------*/
 
 #sstech-banner
 {
@@ -213,7 +258,7 @@ footer
     }
 }
 
-/*--------------------------About-us-------------*/
+/*--------------------------About-us------------------------*/
 .progress 
 {
     height: 18px !important;
